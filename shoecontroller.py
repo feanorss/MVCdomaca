@@ -19,7 +19,7 @@ class ShoeController:
 
         new_shoe = Shoe(id, gender_type, type, color, price, brand, size)
         self.model.add_shoe(new_shoe)
-        self.view.display_message("Shoe added successfully.")
+
 
     def show_shoes(self):
         shoes = self.model.get_shoes()
